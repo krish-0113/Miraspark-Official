@@ -99,3 +99,28 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  /* Rainbow gradient border */
+  .border-rainbow-gradient {
+    position: relative;
+    background: linear-gradient(135deg, #00f0ff, #8b00ff, #ff00c8, #00f0ff);
+    background-size: 400% 400%;
+    animation: animateRainbowGradient 6s ease infinite;
+  }
+
+  /* Animated gradient borders */
+  .border-gradient-blue {
+    position: relative;
+    background: linear-gradient(to right, #3b82f6, #1e40af, #6366f1, #4f46e5);
+    background-size: 400% 400%;
+    animation: animateGradient 6s ease infinite;
+  }
+
+  .border-blue-gradient {
+    position: relative;
+    background: linear-gradient(45deg, #3b82f6, #06b6d4, #3b82f6, #06b6d4);
+    background-size: 400% 400%;
+    animation: animateGradient 6s ease infinite;
+  }
+}
