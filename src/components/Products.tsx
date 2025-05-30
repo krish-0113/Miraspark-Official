@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import { Shield, Globe, TestTube, Lock, Zap, Database, Bitcoin, Coins, Network, Star, ArrowRight, CheckCircle } from "lucide-react";
 
-const UpcomingProductsSection = () => {
+const Products = () => {
   const blockchains = [
     { name: "Bitcoin", icon: Bitcoin, color: "from-orange-400 to-yellow-500" },
     { name: "Ethereum", icon: Database, color: "from-blue-400 to-purple-500" },
@@ -309,4 +309,4 @@ const UpcomingProductsSection = () => {
   );
 };
 
-export default UpcomingProductsSection;
+export default Products;

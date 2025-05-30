@@ -227,7 +227,7 @@ const Hero = () => {
         <ChevronDown className="w-6 h-6 text-white/60" />
       </div>
 
-      <style jsx>{`
+      <style >{`
         @keyframes fadeInUp {
           from {
             opacity: 0;
